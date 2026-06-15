@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "SimpleSurvey",
+    "slug": "simple-survey-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#4f46e5",
+        "foregroundImage": "./assets/icon.png"
+      },
+      "package": "com.simplesurvey.app"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.simplesurvey.app"
+    },
+    "plugins": [],
+    "extra": {
+      "eas": {
+        "projectId": "8ee8993a-32ed-4efd-b63a-1a2ac7e3f764"
+      }
+    },
+    "owner": "symonmwangi"
+  }
+}
