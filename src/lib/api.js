@@ -1,4 +1,4 @@
-const API_BASE = 'https://simple-survey-api-production.up.railway.app/api';
+const API_BASE = 'https://simple-survey-api-c3kj.onrender.com/api';
 
 async function request(method, path, body = null, isFormData = false) {
   const options = { method, headers: {} };
